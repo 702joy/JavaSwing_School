@@ -1,4 +1,4 @@
-package unit03.EventExam;
+package EventExam;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -37,7 +37,6 @@ public class SwingLogin extends JFrame implements ActionListener {
 		p.add(btnCancel);
 
 		add(lbResult, BorderLayout.SOUTH);
-
 		btnLogin.addActionListener(this);
 		btnCancel.addActionListener(this);
 
@@ -51,21 +50,22 @@ public class SwingLogin extends JFrame implements ActionListener {
 
 	public static void main(String[] args) {
 		new SwingLogin();
-
 	}
 
 	@Override
-	public void actionPerformed(ActionEvent e) {
-		if (e.getSource() == btnLogin) {
+	public void actionPerformed(ActionEvent e) 
+	   {
+		if (e.getSource() == btnLogin) 
+		   {	
 			String strid = idtf.getText();
-			String strps = pstf.getText();
-
+			String strps = new String(pstf.getPassword());
 			if (strid.length() == 0) lbResult.setText("아이디를 입력하세요");
 			else if (strps.length() == 0) lbResult.setText("비밀번호를 입력하세요");
 			else lbResult.setText(strid + " 님의 비밀번호는 " + strps + " 입니다");
-		} else if (e.getSource() == btnCancel) {
+		   }
+			else if (e.getSource() == btnCancel) {
 			lbResult.setText("취소하였습니다");
 			idtf.setText(""); pstf.setText("");
-		}
-	}
+		   }
+	   }
 }
