@@ -25,7 +25,6 @@ public class TextAreaEx extends JFrame implements ActionListener{
 			p.add(btn);
 			tf.addActionListener(this);
 			btn.addActionListener(this);
-
 			tf.setBackground(Color.LIGHT_GRAY);
 			setTitle("텍스트 영역만들기");
 			setSize(300,250);

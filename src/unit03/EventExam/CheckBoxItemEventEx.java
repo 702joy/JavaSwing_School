@@ -12,8 +12,7 @@ public class CheckBoxItemEventEx extends JFrame implements ItemListener{
 	JCheckBox fruit2 = new JCheckBox("배");
 	JCheckBox fruit3 = new JCheckBox("체리");
 	JLabel lb_result = new JLabel("현재 0원입니다.");
-	
-	
+
 	
 	CheckBoxItemEventEx() {
 		JPanel p = new JPanel();

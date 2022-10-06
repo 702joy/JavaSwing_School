@@ -3,10 +3,6 @@ package EventExam;
 import javax.swing.*;
 
 public class SwingCoffee extends JFrame{
-	
-	
-	
-	
 	public SwingCoffee() {
 		JPanel p = new JPanel();
 		add(p);

@@ -16,7 +16,6 @@ public class SwingCounter extends JFrame implements ActionListener{
 		
 		JPanel p = new JPanel();
 		add(p);
-		
 		p.add(lb);
 		p.add(tf);
 		p.add(btn1);
