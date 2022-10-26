@@ -9,6 +9,7 @@ public class HelloKeyMove extends JFrame implements KeyListener {
 	JPanel p = new JPanel();
 	JLabel lb = new JLabel("Hello");
 
+	
 	HelloKeyMove() {
 
 		add(p);

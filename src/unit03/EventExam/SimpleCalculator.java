@@ -32,6 +32,7 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 		p.add(tf_Src);
 		p.add(lb_des);
 		p.add(tf_des);
+		
 
 		for (int i = 0; i < btn.length; i++) {
 			btn[i] = new JButton(names[i]);

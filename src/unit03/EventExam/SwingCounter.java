@@ -14,6 +14,7 @@ public class SwingCounter extends JFrame implements ActionListener{
 	JButton btn3  = new JButton("√ ±‚»≠");
 	SwingCounter(){
 		
+		
 		JPanel p = new JPanel();
 		add(p);
 		p.add(lb);

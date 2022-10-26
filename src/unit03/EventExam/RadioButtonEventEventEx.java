@@ -52,6 +52,7 @@ public class RadioButtonEventEventEx extends JFrame implements ItemListener {
 	public void itemStateChanged(ItemEvent e) {
 		if (e.getStateChange() == ItemEvent.SELECTED) {
 
+			
 			String srcStr = src.getText().trim();
 
 			int num = Integer.parseInt(srcStr);

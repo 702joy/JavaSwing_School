@@ -28,6 +28,7 @@ public class SwingCoffee extends JFrame implements ItemListener{
 			bg[i].addItemListener(this);
 		}
 		
+		
 		add(sp, BorderLayout.CENTER);
 		
 		setTitle("커피주문");

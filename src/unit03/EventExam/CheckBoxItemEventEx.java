@@ -45,6 +45,7 @@ public class CheckBoxItemEventEx extends JFrame implements ItemListener{
 			}
 			else if(e.getItem() == fruit[1]) {
 				price+=500;
+				
 			}
 			else if(e.getItem() == fruit[2]) {
 				price+=2000;

@@ -48,6 +48,7 @@ public class SwingLogin extends JFrame implements ActionListener {
 		setVisible(true);
 	}
 
+	
 	public static void main(String[] args) {
 		new SwingLogin();
 	}

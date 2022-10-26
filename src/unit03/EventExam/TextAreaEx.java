@@ -34,6 +34,7 @@ public class TextAreaEx extends JFrame implements ActionListener{
 	}
 	public static void main(String[] args) {
 		new TextAreaEx();
+		
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {
