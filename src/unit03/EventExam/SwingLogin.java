@@ -28,6 +28,7 @@ public class SwingLogin extends JFrame implements ActionListener {
 
 		p.add(idlb);
 		p.add(idtf);
+		
 		p.add(pslb);
 		p.add(pstf);
 
