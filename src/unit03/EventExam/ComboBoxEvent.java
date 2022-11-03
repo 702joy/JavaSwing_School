@@ -18,6 +18,7 @@ public class ComboBoxEvent extends JFrame implements ActionListener {
 							new ImageIcon("img/es.jpg")};
 	ComboBoxEvent() {
 
+		
 		add(combo,BorderLayout.NORTH);
 		add(lb,BorderLayout.CENTER);
 		
